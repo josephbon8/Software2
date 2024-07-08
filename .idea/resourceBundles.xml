@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ResourceBundleManager">
+    <file url="file://$PROJECT_DIR$/src/main/resources/com/example/software2/log.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/com/example/software2/log_en.properties" />
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/src/main/resources/com/example/software2/log.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/com/example/software2/log_en.properties" />
+      <file value="file://$PROJECT_DIR$/../../Software2Redo/Software2/src/main/resources/log_fr.properties" />
+      <base-name>log</base-name>
+    </custom-resource-bundle>
+  </component>
+</project>

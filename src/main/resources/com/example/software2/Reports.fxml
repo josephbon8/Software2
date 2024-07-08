@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="523.0" prefWidth="729.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.software2.Controllers.ReportsController">
+   <children>
+      <TableView fx:id="appointmentTable" layoutX="53.0" layoutY="27.0" prefHeight="200.0" prefWidth="229.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Appointment Month" />
+          <TableColumn prefWidth="75.0" text="Appointment Type" />
+            <TableColumn prefWidth="75.0" text="Total Appointments" />
+        </columns>
+      </TableView>
+      <TableView fx:id="divisionTable" layoutX="349.0" layoutY="27.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Division Name" />
+          <TableColumn prefWidth="75.0" text="Total Customers" />
+        </columns>
+      </TableView>
+      <TableView fx:id="customerTable" layoutX="27.0" layoutY="287.0" prefHeight="200.0" prefWidth="700.0">
+        <columns>
+          <TableColumn fx:id="ID" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="customerTitle" prefWidth="75.0" text="Title" />
+            <TableColumn fx:id="customerType" prefWidth="75.0" text="Type" />
+            <TableColumn fx:id="customerDesc" prefWidth="75.0" text="Description" />
+            <TableColumn fx:id="customerLocation" prefWidth="75.0" text="Location" />
+            <TableColumn fx:id="customerStartDate" prefWidth="75.0" text="Start Date" />
+            <TableColumn fx:id="customerEndDate" prefWidth="75.0" text="End Date" />
+            <TableColumn fx:id="customerID" prefWidth="75.0" text="Customer ID" />
+        </columns>
+      </TableView>
+      <ChoiceBox layoutX="59.0" layoutY="237.0" prefWidth="150.0" />
+      <Button layoutX="616.0" layoutY="497.0" mnemonicParsing="false" text="Logout" />
+      <Button layoutX="522.0" layoutY="497.0" mnemonicParsing="false" text="Exit" />
+   </children>
+</AnchorPane>
